@@ -1,4 +1,4 @@
-class GFG {
+class Pangram {
     public static void allLetter(String str)
     {
         str = str.toLowerCase();
