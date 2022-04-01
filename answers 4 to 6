@@ -1,0 +1,28 @@
+4.
+No it is not correct 
+correct way is 
+ArrayList<Integer> arrlist=new ArrayList<Integer>();
+& for Doubl   -   ArrayList<Double> aarlist=new Arraylist<Double>();
+
+5. 
+a. As the name suggests polymorphism is the function in many forms.
+It can be compile-time or runtime. Compile time can be achieved by either method overloading or operator overloading,
+whereas runtime polimorphism is achieved with the help of method overriding
+b. Overloading is the process of changing the signature of functions i.e the parameters can be different in the methods having the same name.
+c. Overriding is achieved with the help of inheritance where the method is base class is defined again with same attributes in the child class and perform differently as
+comparred to the main class.
+
+6.
+Multiple Inheritance is a feature of an object-oriented concept, where a class can inherit properties of more than one parent class. 
+The problem occurs when there exist methods with the same signature in both the superclasses and subclass. 
+On calling the method, the compiler cannot determine which class method to be called and even on calling which class method gets the priority. Thus,
+to prevent ambiguity multiple inheritance is not supported in java.
+
+7.
+We can make a static class in java by adding the static keyword before class.
+eg.- static class pangram{
+...}
+2nd question : How to make a normal class static in behaviour??
+Ans - According to me , if we define every variables and methods in a non static class as static , then the class will work as a static class.
+
+
